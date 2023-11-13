@@ -1,5 +1,5 @@
 const horas =  document.getElementById ('horas');
-]const minutoss =  document.getElementById ('minutos');
+const minutoss =  document.getElementById ('minutos');
 const segundos =  document.getElementById ('segundos');
 
 const relogio = setInterval(function time()) {
