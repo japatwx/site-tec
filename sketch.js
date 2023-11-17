@@ -4,9 +4,9 @@ const segundos =  document.getElementById ('segundos');
 
 const relogio = setInterval(function time()) {
     let dateToday = new Date();
-    let hr = dateToday = dateToday.getHours();
-    let min = dateToday = dateToday.getMinutes();
-    let seg = dateToday = dateToday.getMilliseconds();
+    let hr = dateToday.getHours();
+    let min = dateToday.getMinutes();
+    let seg = dateToday.getMilliseconds();
 
     if(hr < 10) hr = '0' + hr;
 
